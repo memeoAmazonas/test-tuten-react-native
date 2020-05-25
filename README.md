@@ -32,10 +32,10 @@ $ npm start
 https://www.youtube.com/watch?v=6v-BQjbS-BY&list=LLngqbdHkyZi0DdKnCawhTRQ&index=25&t=6s
 ```
 ## Apk into directory
-apk
+test-tuten-app.apk
 ```
-
--Esta app consume los servicios desde: https://dev.tuten.cl/TutenREST/rest/user/
+Al instalar no se debe aceptar la validacion de google play protector 
+debido a que la aplicacion no cuenta con una firma valida para ser usada
 ```
 ``:)``
 
