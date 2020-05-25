@@ -13,17 +13,16 @@ const Booking = ({data, onpress}) => {
     const [label, setLabel] = React.useState('BookingId');
     const [value, setValue] = React.useState(data);
     const filterData = (key, actuallyValue) => {
-        console.log(key, actuallyValue);
         if (actuallyValue) {
             switch (filterBy) {
                 case "==":
-                    setValue(filter(data, (item) => item[key].toLocaleString() === actuallyValue.toLocaleString()));
+                    setValue(filter(data, (item) =>  parseInt(item[key]) === parseInt(actuallyValue)));
                     break;
                 case ">":
-                    setValue(filter(data, (item) => item[key].toLocaleString() > actuallyValue.toLocaleString()));
+                    setValue(filter(data, (item) => parseInt(item[key]) > parseInt(actuallyValue)));
                     break;
                 case "<":
-                    setValue(filter(data, (item) => item[key].toLocaleString() < actuallyValue.toLocaleString()));
+                    setValue(filter(data, (item) => parseInt(item[key]) < parseInt(actuallyValue)));
                     break;
                 default:
                     setValue(data);
@@ -52,6 +51,7 @@ const Booking = ({data, onpress}) => {
             <RNPickerSelect
                 placeholder={{label: "Seleccione el campo a filtrar"}}
                 onValueChange={(value) => setLabel(value)}
+                numeric={true}
                 items={[
                     {itemKey:'BookingId' ,label: 'BookingId', value: 'bookingId'},
                     {itemKey: 'bookingPrice',label: 'bookingPrice', value: 'bookingPrice'},

@@ -1,0 +1,28 @@
+# Tuten WebApp Mobile by Jose Ortiz
+ 
+ date 24/05/2020
+ 
+this app are development on React Native
+
+
+## Project Setup
+
+To install all Project's dependencies, run the following command:
+
+```bash
+$ npm install
+```
+## Running App
+To start the app, run the following command:
+
+```bash
+$ npm start
+```
+## Apk into directory
+apk
+```
+-set write permissions in the  phone for the app 
+-the app consume services from server https://dev.tuten.cl/TutenREST/rest/user/
+```
+``:)``
+

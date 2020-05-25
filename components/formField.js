@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, TextInput, Text } from 'react-native';
 
-const FormField = ({ label, value, multiline, onChangeText, secureTextEntry=false }) => {
+const FormField = ({ label, value, multiline, onChangeText, secureTextEntry=false, numeric=false, keyboardType='default'}) => {
   return (
     <View
       style={{
@@ -25,7 +25,9 @@ const FormField = ({ label, value, multiline, onChangeText, secureTextEntry=fals
         onChangeText={onChangeText}
         underlineColorAndroid="transparent"
         secureTextEntry={secureTextEntry}
-      />
+        numeric={numeric}
+        keyboardType={keyboardType}
+    />
     </View>
   );
 };
