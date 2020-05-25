@@ -11,6 +11,7 @@ import Button from "../components/button";
 const Booking = ({data, onpress}) => {
     const [filterBy, setFilterBy] = React.useState('==');
     const [label, setLabel] = React.useState('BookingId');
+    const [inputValue, setInputValue] = React.useState();
     const [value, setValue] = React.useState(data);
     const filterData = (key, actuallyValue) => {
         if (actuallyValue) {
@@ -69,6 +70,7 @@ const Booking = ({data, onpress}) => {
             <View>
                 <FormField
                     label={'Ingrese el valor'}
+                    value={inputValue}
                     onChangeText={(text) => filterData(label, text)}
                 />
             </View>

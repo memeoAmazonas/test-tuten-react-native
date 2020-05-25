@@ -8,9 +8,6 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@material-ui/core": "^4.10.0",
-    "@material-ui/icons": "^4.9.1",
-    "@material-ui/styles": "^4.10.0",
     "@react-native-community/async-storage": "^1.10.3",
     "axios": "^0.19.2",
     "deepdash": "^5.0.3",
@@ -18,10 +15,9 @@
     "expo": "^37.0.12",
     "lodash": "^4.17.15",
     "moment": "^2.26.0",
-    "mui-datatables": "^2.14.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-keyboard-aware-scroll-view": "^0.9.1",
     "react-native-loading-spinner-overlay": "^1.1.0",

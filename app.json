@@ -2,9 +2,11 @@
   "expo": {
     "name": "tuten-test-react-native",
     "slug": "tuten-test-react-native",
-    "sdkVersion": "34.0.0",
+    "sdkVersion": "37.0.0",
     "platforms": [
-      "android"
+      "ios",
+      "android",
+      "web"
     ],
     "version": "1.0.0",
     "orientation": "portrait",

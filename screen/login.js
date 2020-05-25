@@ -13,7 +13,6 @@ const  Login = ({sendLogin})=> {
                 value={email}
                 label={'Email'}
                 onChangeText={(text) => setEmail(text)}
-                keyboardType={'email-address'}
 
             />
             <FormField
