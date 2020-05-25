@@ -25,8 +25,6 @@ const FormField = ({ label, value, multiline, onChangeText, secureTextEntry=fals
         onChangeText={onChangeText}
         underlineColorAndroid="transparent"
         secureTextEntry={secureTextEntry}
-        numeric={numeric}
-        keyboardType={keyboardType}
     />
     </View>
   );
