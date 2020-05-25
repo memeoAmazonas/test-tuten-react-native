@@ -1,28 +1,41 @@
 # Tuten WebApp Mobile by Jose Ortiz
  
- date 24/05/2020
+24/05/2020
  
-this app are development on React Native and expo
+Esta aplicacion fue realizada usando React native y expo
 
+##Prerequisitos
+```
+tener instalado expo para popder ver la aplicacion en funcionamiento:
+```
+```
+web: https://docs.expo.io/get-started/installation/
+movil: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=es_VE
 
+```
 ## Project Setup
 
-To install all Project's dependencies, run the following command:
+Ejecutar para instalar las dependencias:
 
 ```bash
 $ npm install
 ```
 ## Running App
-To start the app, run the following command:
+Ejecutar para ver la aplicacion, se desplegara un codigo qr el cual se debe leer con la aplicacion Expo instalada en el
+ dispositivo movil:
 
 ```bash
 $ npm start
 ```
+##Generar apk para android 
+```$xslt
+https://www.youtube.com/watch?v=6v-BQjbS-BY&list=LLngqbdHkyZi0DdKnCawhTRQ&index=25&t=6s
+```
 ## Apk into directory
 apk
 ```
--set write permissions in the  phone for the app 
--the app consume services from server https://dev.tuten.cl/TutenREST/rest/user/
+
+-Esta app consume los servicios desde: https://dev.tuten.cl/TutenREST/rest/user/
 ```
 ``:)``
 
