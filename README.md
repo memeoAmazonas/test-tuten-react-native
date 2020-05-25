@@ -2,7 +2,7 @@
  
  date 24/05/2020
  
-this app are development on React Native
+this app are development on React Native and expo
 
 
 ## Project Setup
