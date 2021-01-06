@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.10.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "deepdash": "^5.0.3",
     "deepdash-es": "^5.0.3",
     "expo": "^37.0.12",
